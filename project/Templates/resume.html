@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Porfolio-Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+  .table-borderless td,
+  .table-borderless th { border: 0; }
+
+    .body-1{
+    background-color:#000000;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .jumbotron {
+    background-color: #5F9EA0;
+    color: #fff;
+    padding: 10px 0px;
+  }
+  .jumbotron {
+    font-size:20px;
+    color:#f6f6f6;
+  }
+  .container-fluid {
+    background-color: #224B32;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #f4511e;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+    }
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  .h1{
+
+    color: #f4511e;
+  }
+  .p{
+    font-size: 25px;
+    color: #f4511e;
+  }
+  .container{
+    background-color: #778899;
+    color: #fff;
+    padding: 40px 20px;
+  }
+
+  .body {
+    background-color:#d34c65;
+    text-align:center;
+  }
+
+  .div-1 {
+    display: inline-block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+  }
+
+
+
+  .a {
+    color:#fff;
+    background: #DB6E82;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family:fontawesome;
+    position: relative;
+    display: inline-block;
+    width:40px;
+    height:28px;
+    padding-top:12px;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+
+  .a:hover {
+    background: #ef92a3;
+  }
+
+
+
+  .a span {
+    color:#666;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+
+
+  .a span:before {
+    content:'';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+
+
+
+  .a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+
+
+
+  .a:nth-of-type(1):before {
+  content:'\f09a';
+  }
+  .a:nth-of-type(2):before {
+  content:'\f099';
+  }
+  .a:nth-of-type(3):before {
+  content:'\f0d5';
+  }
+  .a:nth-of-type(4):before {
+  content:'\f113';
+  }
+  .a:nth-of-type(5):before {
+  content:'\f17d';
+  }
+  .a:nth-of-type(6):before {
+  content:'\f1cb';
+  }
+
+
+
+
+</style>
+</head>
+<body class="body-1"id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="jumbotron text-center"style="color:#000000">
+<h1 class="H1">RESUME</h1></div>
+<nav class="navbar navbar-default navbar">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#myPage"></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-center">
+        <li><a href="#Profile">Info</a></li>
+        <li><a href="#Career Objective">Career Objective</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Professional Skill">Professional Skill</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#Languages Known">Languages known</a></li>
+          <li><a href="#Personal details">Personal details</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="Profile" class="text-center"style="color:#000000">
+  <h1>Profile</h1>
+  <img src="{{url_for('static',filename='srk.jpg')}}" alt="Rohith" width="350", height="350"></div>
+  <br>
+  <br>
+    <div id="Career Objective" class="jumbotron text-center"style="color:#f6f6f6">
+      <h1 class="h1">Career objective</h1>
+  <div><p class="container"style="border:5px; border-style:solid; border-color:	#ffcc99; padding:1em;"<p style="font-size:20px">To secure a responsible career opportunity as Data scientist and to fully utilize my training and skills, while making a significance contribution to the success of the company and The goal of data science is to construct the means for extracting business-focused insights from data. This requires an understanding of how value and information flows in a business, and the ability to use that understanding to identify business opportunities.
+</p></div>
+ </div>
+  <div id="Education" class="jumbotron text-center" style="color:#f6f6f6">
+  <h1 class="h1">Education</h1>
+  </div>
+  <div class="container text-center" <p style="font-size:20px"></p>
+
+       <div class="title"></div>
+       <ul>
+       <li>
+
+      <div class="date">2013 - 2014</div>
+      <br>
+      <div class="info">
+      <p class="semi-bold">State Board of Secondary Education(CGPA:8.8)<br>Locaton:Paramitha High School,karimnagar</p>
+                 </div>
+                 <br>
+                 <br>
+             </li>
+             <li>
+               <div class="date">2014 - 2016</div>
+               <br>
+
+               <div class="info">
+                      <p class="semi-bold">Board Of Interimediate(marks:917)<br>Location:Sri Chaitanya Junior College,Ameenpur,Hyderabad</p>
+                 </div>
+             </li>
+             <li>
+               <br>
+               <br>
+               <div class="date">2016 - 2020</div>
+               <br>
+               <div class="info">
+                      <p class="semi-bold">Bachlor Of Technology(CGPA:78.3)<br>Malla Reddy Engineering College,Hyderabad</p>
+                 </div>
+             </li>
+         </ul>
+     </div>
+     <br>
+     <br>
+
+     <div id="Projects" class="jumbotron text-center"style="color:#f6f6f6">
+       <h1 class="h1">Projects</h1>
+   <div><ul class="container"style="border:5px; border-style:solid; border-color:	#ffcc99; padding:2em;"
+     <ul>
+       <li>
+           <p style="font-size:20px">
+             <h1>Mini Project</h1>
+             <br>
+             Project:Smart Irrigation System
+             <br>
+             Project Tenure:1 Months
+             <br>
+             <h1>Major Project</h1>
+               <br>
+               Project:Real Time Voice And Head Controlled Wheel Chair
+               <br>
+               Project Tenure:3 Months
+               <br>
+
+ </p></div>
+  </div>
+</li>
+</ul>
+  <div id="Professional Skill" class="jumbotron text-center"style="color:#f6f6f6">
+  <h2>Professional Skill</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{{url_for('static',filename='Clang.png')}}" alt="C" width="75" height="75">
+      <h4>C Language</h4>
+    </div>
+    <div class="col-sm-4">
+        <img src="{{url_for('static',filename='python.jpg')}}"alt="PYTHON" width="75" height="75">
+      <h4>Python</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="{{url_for('static',filename='HTML.jpg')}}" alt="HTML" width="75" height="75">
+      <h4>HTML</h4>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="{{url_for('static',filename='css.png')}}" alt="CSS" width="75" height="75">
+      <h4>CSS</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="{{url_for('static',filename='bootstrap.png')}}" alt="BOOTSTRAP" width="75" height="75">
+      <h4>Bootstrap</h4>
+    </div>
+    <div class="col-sm-4">
+    <img src="{{url_for('static',filename='flask.png')}}" alt="FLASK" width="75" height="75">
+      <h4>Flask</h4>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div id="Hobbies" class="container text-center"style="color:#f6f6f6">
+    <h2>Hobbies</h2>
+  </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{url_for('static',filename='Outdoorgames.jpg')}}" alt="games" width="75" height="75">
+        <h4>Outdoor Games</h4>
+      </div>
+      <div class="col-sm-4">
+          <img src="{{url_for('static',filename='music.png')}}" alt="Music" width="75" height="75">
+        <h4>Listening Music</h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="{{url_for('static',filename='callofduty.jpg')}}" alt="COD" width="75" height="75">
+        <h4>Playing Pc Games</h4>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="{{url_for('static',filename='pubg.webp')}}" alt="pubg" width="75" height="75">
+        <h4>PUBG</h4>
+      </div>
+      </div>
+      </div>
+      <br>
+      <br>
+
+      <div id="Languages Known" class="jumbotron text-center"style="color:#f6f6f6">
+<h1>Languages Known</h1>
+    <div><ul class="container"style="border:5px; border-style:solid; border-color:	#ffcc99; padding:2em;"
+      <ul>
+
+            <p style="font-size:20px">
+            <li>English</li>
+              <br>
+            <li>Telugu</li>
+              <br>
+              <li>Hindi</li>
+            </div>
+   </div>
+ </li>
+ </ul>
+    <div id="Personal details"class="jumbotron text-center"style="color:#f6f6f6">
+     <span class="glyphicon glyphicon-earphone"></span><h1>Personal details</h1>
+     <p class="font-weight-bold">+91 9441350441<br>rohithsaini@gmail.com<p>
+       <div class="footer-social-icons">
+           <h2 class="_14">Follow Me on</h2>
+           <br>
+           <br>
+
+    <h4 class="_14">Follow us on</h4>
+    <div>
+  <a href="https://www.facebook.com/rohithsaini"><span>Facebook</span></a>
+  <a href="https://twitter.com/home"><span>Twitter</span></a>
+  <a href="https://www.instagram.com/rohithsaini/"><span>Instagram</span></a>
+  <a href="https://www.linkedin.com/in/rohith-kumar-saini-4aa9ba131/"><span>Linkedin</span></a>
+
+</div>
+
+
+    </div>
+  </body>
+  </html>
